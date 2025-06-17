@@ -18,3 +18,16 @@ library(imageRy)
 ## Day 3
 + Colorblindness 👓
 
+We the following code we attain a nice image.
+
++ The code:
+``` r
+p1 <- ggRGB(m1992, r=1, g=2, b=3) + ggtitle("1992 - Landsat data")
+p2 <- ggRGB(m2006, r=1, g=2, b=3) + ggtitle("2006 - Aster data")
+p1 + p2
+```
+
++ The image:
+
+![apng](https://github.com/user-attachments/assets/5a4fbdcf-67a0-4cd3-af0a-1c925b605b23)
+
