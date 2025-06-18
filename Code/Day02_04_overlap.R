@@ -16,14 +16,14 @@ dev.off()
 m1_distill <- metrics_distill(fiespa_occ)
 map_single(m1_distill, p1)
 
-green <- im.import("greenland.200")
+green <- im.import("greenland.20")
 
 g00 = rast("~/Downloads/greenland.2000.tif")
 g05 = rast("~/Downloads/greenland.2005.tif")
 g10 = rast("~/Downloads/greenland.2010.tif")
 green <- c(g00, g05, g10)
 
-
+plotRGB(green, 1, 2, 3, stretch="lin")
 
 
 
