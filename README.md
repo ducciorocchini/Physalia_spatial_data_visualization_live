@@ -26,7 +26,7 @@ library(imageRy)
 + Colorblindness 👓
   
 
-We the following code we attain a nice image.
+With the following code we attain a nice image.
 
 + The code:
 ``` r
