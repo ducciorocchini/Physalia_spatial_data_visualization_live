@@ -12,9 +12,13 @@ library(imageRy)
 ```
 
 ## Day 2
-+ Point patterns ✴️
-+ Scatterplots 💙
-
++ land use change
+  + classification
+  + ridgeline plots for temporal changes
++ epidemiology
+  + density maps
+  + distribution overlaps
+    
 ## Day 3
 + Colorblindness 👓
 
