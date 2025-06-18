@@ -16,11 +16,15 @@ library(imageRy)
   + classification
   + ridgeline plots for temporal changes
 + epidemiology
-  + density maps
+  + from vector data to density maps
   + distribution overlaps
     
 ## Day 3
++ Vector data:
+  + How to make use of **cartograms** for fancy map distortion
+  + Making use of **bivariate maps** to plopt several variables at a time 
 + Colorblindness 👓
+  
 
 We the following code we attain a nice image.
 
