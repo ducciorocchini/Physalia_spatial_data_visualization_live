@@ -36,6 +36,7 @@ p3 <- im.ggplot(sd5) + ggtitle("Standard deviation in a 5x5 window")
 p1 + p2 + p3
 
 var3 <- focal(nir, w=c(3,3), fun=var)
+var3 <- focal(nir, w=c(3,3), fun=var)
 p4 <- im.ggplot(var3) + ggtitle("Variance in a 3x3 window")
 p1 + p2 + p4
 
@@ -46,5 +47,6 @@ p4 + p5
 
 p1 + p2 + p3 + p4 
 
-
+# Fehler in get(as.character(FUN), mode = "function", envir = envir) : 
+  Objekt 'fun' mit Modus 'function' nicht gefunden
 
