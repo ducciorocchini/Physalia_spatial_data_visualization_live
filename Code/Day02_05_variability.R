@@ -50,3 +50,7 @@ p1 + p2 + p3 + p4
 # Fehler in get(as.character(FUN), mode = "function", envir = envir) : 
   Objekt 'fun' mit Modus 'function' nicht gefunden
 
+# In some cases previous versions of terra do not accept var, hence:
+var3 <- focal(nir, w = c(3,3), fun = function(x) var(x, na.rm = TRUE))
+
+
