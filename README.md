@@ -21,10 +21,11 @@ library(imageRy)
     
 ## Day 3
 + Vector data:
+  + **Plotting vector data** and their stats
+  + **Pairing** vector data  
   + How to make use of **cartograms** for fancy map distortion
   + Making use of **bivariate maps** to plopt several variables at a time 
 + Colorblindness 👓
-  
 
 With the following code we attain a nice image.
 
